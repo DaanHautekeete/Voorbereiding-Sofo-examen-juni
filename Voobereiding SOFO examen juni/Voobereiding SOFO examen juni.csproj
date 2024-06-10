@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,10 +53,37 @@
     <Compile Include="Hoofdstuk 4\Iteraties\Oef-2\frmOefening2.Designer.cs">
       <DependentUpon>frmOefening2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-3\frmOefening3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-3\frmOefening3.Designer.cs">
+      <DependentUpon>frmOefening3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-4\frmOefening4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-4\frmOefening4.Designer.cs">
+      <DependentUpon>frmOefening4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-5\frmOefening5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-5\frmOefening5.Designer.cs">
+      <DependentUpon>frmOefening5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-2\frmOefening2.resx">
       <DependentUpon>frmOefening2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-3\frmOefening3.resx">
+      <DependentUpon>frmOefening3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-4\frmOefening4.resx">
+      <DependentUpon>frmOefening4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-5\frmOefening5.resx">
+      <DependentUpon>frmOefening5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
