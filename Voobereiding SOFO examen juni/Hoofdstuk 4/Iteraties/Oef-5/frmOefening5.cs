@@ -29,11 +29,14 @@ namespace Voobereiding_SOFO_examen_juni.Hoofdstuk_4.Iteraties.Oef_5
         //code om een tafel te selecteren
         private void lsbTafels_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //teskt in label verwijdjeren
+            lblTafels.Text = "";
+
             for (int intTeller = 1; intTeller <= 10; intTeller++)
             {
                 intUitkomst = Convert.ToInt16(lsbTafels.SelectedItem) * intTeller;
 
-                lblTafels.Text += intTeller.ToString() + "x" + lsbTafels.SelectedItem.ToString() + " = " + intUitkomst.ToString(); 
+                lblTafels.Text += intTeller.ToString("00") + " x " + lsbTafels.SelectedItem.ToString() + " = " + intUitkomst.ToString("00") + "\n"; 
             }
         }
     }

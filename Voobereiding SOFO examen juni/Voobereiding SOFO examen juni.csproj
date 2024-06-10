@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-11\frmOefening11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-11\frmOefening11.Designer.cs">
+      <DependentUpon>frmOefening11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hoofdstuk 4\Iteraties\Oef-2\frmOefening2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,8 +77,29 @@
     <Compile Include="Hoofdstuk 4\Iteraties\Oef-5\frmOefening5.Designer.cs">
       <DependentUpon>frmOefening5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-7\frmOefening7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-7\frmOefening7.Designer.cs">
+      <DependentUpon>frmOefening7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-8\frmOefening8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-8\frmOefening8.Designer.cs">
+      <DependentUpon>frmOefening8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-9\frmOefening9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoofdstuk 4\Iteraties\Oef-9\frmOefening9.Designer.cs">
+      <DependentUpon>frmOefening9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-11\frmOefening11.resx">
+      <DependentUpon>frmOefening11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-2\frmOefening2.resx">
       <DependentUpon>frmOefening2.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +111,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-5\frmOefening5.resx">
       <DependentUpon>frmOefening5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-7\frmOefening7.resx">
+      <DependentUpon>frmOefening7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-8\frmOefening8.resx">
+      <DependentUpon>frmOefening8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoofdstuk 4\Iteraties\Oef-9\frmOefening9.resx">
+      <DependentUpon>frmOefening9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
