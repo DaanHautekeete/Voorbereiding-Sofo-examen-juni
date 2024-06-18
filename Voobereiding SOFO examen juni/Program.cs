@@ -16,7 +16,7 @@ namespace Voobereiding_SOFO_examen_juni
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Hoofdstuk_5.Oef_5.frmOefening5());
+            Application.Run(new Hoofdstuk_6.Oef_6.frmOefening6());
         }
     }
 }
